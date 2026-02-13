@@ -25,7 +25,8 @@ Loss--> Using Catergorical cross entropy loss
   
 For case of backward pass in  activaiton funciton it very complex so we are going to combined BACKWARD_PASS(LOSS + ACTIVATION_SOFTMAX) it is == Prediction -- GroundTruth   
     
-So till now we find paritial derivates of weights and activation fucnction so now the questioin is--   HOW DO WE OPTIMIZE THE WEIGHTS ? ---> OPTIMIZERS (adam)-->combines the advantages of MomentumGD+RMSpropGD   
+So till now we find paritial derivates of weights and activation fucnction so now the questioin is:-        
+          HOW DO WE OPTIMIZE THE WEIGHTS ? ---> OPTIMIZERS (adam)-->combines the advantages of MomentumGD+RMSpropGD   
 
 
   As everything completed regarding architecting the Neural Network we have to now TRAIN our Network..
