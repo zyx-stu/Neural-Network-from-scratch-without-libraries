@@ -9,7 +9,10 @@ I/P X=[x1,x2,x3,......,Xn], Weights W= [[W11,W21,W31,....Wnm],.....[W1m,W2m,....
 Output= X*W+B--> np.dot(X,W)+B             
 
 
-Backward Pass:- We calculate parital derivative at layer with repective output on Input, weights and bias applied for calculating that output..          
+Backward Pass:- We calculate parital derivative at layer with repective output on Input, weights and bias applied for calculating that output..      
+Acitvation FUncitons:- O/P layer--> Soft-max funciton and Hidden_Layers--> ReLU  
+We also have Forward and Backward pass in activation fucniton also.  
+
 
 
 
